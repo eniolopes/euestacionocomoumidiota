@@ -1,0 +1,106 @@
+.afs-chunkfive { font-family: "ChunkFive", Rockwell, serif; }
+.afs-fontin-sans { font-family: "Fontin Sans", "Lucida Grande", "Arial", "Helvetica", "Verdana", "Gill Sans", sans-serif; font-size: 0.990em;}
+.afs-ubuntu { font-family: "Ubuntu", "Arial", "Helvetica", "Lucida Grande", "Verdana", "Gill Sans", sans-serif; font-size: 0.962em;}
+.afs-liberation-mono { font-family: "Liberation Mono", Menlo, Courier New, Courier, Mono, monospace; font-size: 0.947em;}
+
+@font-face {
+font-family: 'ChunkFive';
+src: url('/fonts/Chunkfive.otf');
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Fontin Sans';
+src: url('/fonts/fontin_sans_b_45b-webfont.otf');
+font-weight: 700;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Fontin Sans';
+src: url('/fonts/fontin_sans_bi_45b-webfont.otf');
+font-weight: 700;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'Fontin Sans';
+src: url('/fonts/fontin_sans_i_45b-webfont.otf');
+font-weight: 400;
+font-style: italic;
+}
+
+
+@font-face {
+font-family: 'Fontin Sans';
+src: url('/fonts/fontin_sans_r_45b-webfont.otf');
+font-weight: 400;
+font-style: normal;
+}
+
+
+
+@font-face {
+font-family: 'Ubuntu';
+src: url('/fonts/Ubuntu-Bold.ttf') format('truetype')
+font-weight: 700;
+font-style: normal;
+}
+
+
+@font-face {
+font-family: 'Ubuntu';
+src: url('/fonts/Ubuntu-BoldItalic.ttf') format('truetype');
+font-weight: 700;
+font-style: italic;
+}
+
+
+@font-face {
+font-family: 'Ubuntu';
+src: url('/fonts/Ubuntu-Italic.ttf') format('truetype');
+font-weight: 400;
+font-style: italic;
+}
+
+
+@font-face {
+font-family: 'Ubuntu';
+src: url('/fonts/Ubuntu-Regular.ttf') format('truetype');
+font-weight: 400;
+font-style: normal;
+}
+
+
+
+@font-face {
+font-family: 'Liberation Mono';
+src: url('/fonts/LiberationMono-Bold-webfont.eot');
+font-weight: 700;
+font-style: normal;
+}
+
+
+@font-face {
+font-family: 'Liberation Mono';
+src: url('/fonts/LiberationMono-BoldItalic-webfont.eot');
+font-weight: 700;
+font-style: italic;
+}
+
+
+@font-face {
+font-family: 'Liberation Mono';
+src: url('/fonts/LiberationMono-Italic-webfont.eot');
+font-weight: 400;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'Liberation Mono';
+src: url('/fonts/LiberationMono-Regular-webfont.eot');
+font-weight: 400;
+font-style: normal;
+}
+
