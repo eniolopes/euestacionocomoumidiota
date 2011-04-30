@@ -1,0 +1,15 @@
+
+<h1>Here is the photos of the idiots parking</h1>
+
+<p>
+	Description:
+	<%= @idiot.description %>
+</p>
+<p>
+	Location:
+	<%= @idiot.location %>
+</p>
+<p>
+	Photo:
+	<%= image_tag @idiot.photo.url(:medium) %>
+</p>
