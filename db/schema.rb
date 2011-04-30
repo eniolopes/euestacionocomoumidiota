@@ -21,4 +21,3 @@ ActiveRecord::Schema.define(:version => 20110430191745) do
   end
 
 end
-
