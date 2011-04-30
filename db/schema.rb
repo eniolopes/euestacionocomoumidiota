@@ -10,6 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20110430181503) do
 
   create_table "idiots", :force => true do |t|
@@ -21,6 +22,16 @@ ActiveRecord::Schema.define(:version => 20110430181503) do
     t.string   "photo_content_type"
     t.integer  "photo_file_size"
     t.datetime "photo_updated_at"
+=======
+ActiveRecord::Schema.define(:version => 20110430191745) do
+
+  create_table "authentications", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "provider"
+    t.string   "uid"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+>>>>>>> b9febb97ad7f604c25478181d10731e88329dc76
   end
 
 end

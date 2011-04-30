@@ -1,7 +1,16 @@
 Euestacionocomoidiota::Application.routes.draw do
+<<<<<<< HEAD
   #match 'idiot/new' => 'idiot#new'
   resources :idiots
   #get 'idiots/new'
+=======
+
+  root :to => "homepage#index"
+
+  match '/auth/:provider/callback' => 'authentications#create'
+  resources :authentications
+
+>>>>>>> b9febb97ad7f604c25478181d10731e88329dc76
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -57,5 +66,11 @@ Euestacionocomoidiota::Application.routes.draw do
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
+<<<<<<< HEAD
 #  match ':controller(/:action(/:id(.:format)))'
+=======
+  # match ':controller(/:action(/:id(.:format)))'
+
+>>>>>>> b9febb97ad7f604c25478181d10731e88329dc76
 end
+
