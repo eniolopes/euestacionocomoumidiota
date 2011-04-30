@@ -7,11 +7,13 @@ div.idiot {
   border-radius: 10px;
   padding: 20px;
   font-family: "Fontin Sans", "Lucida Grande", "Arial", "Helvetica", "Verdana", "Gill Sans", sans-serif;
-  font-size: 18px;
   margin-bottom: 15px;
 }
-div.idiot p { margin: 2px 0; }
-div.idiot p.img { margin-bottom: 15px; }
+div.idiot p { margin: 10px 0; }
+div.idiot p.image { margin-bottom: 15px; }
+div.idiot p span { background: #d3e6f1; border-radius: 3px; font-size: 11px; color: #999; padding: 5px; }
+div.idiot p.description { font-size: 18px; margin: 15px 0; background: #fff; border-radius: 5px; border: 1px solid #eee; padding: 10px; margin-left: 65px }
+div.idiot p.avatar { float: left; margin: 0; padding: 0 }
 
 #footer {
   font-family: "Ubuntu", "Arial", "Helvetica", "Lucida Grande", "Verdana", "Gill Sans", sans-serif; font-size: 16px;
