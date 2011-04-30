@@ -1,0 +1,23 @@
+
+<h1>Posting photos of the idiots parking</h1>
+
+<%= form_for(@idiot, :html => {:multipart => true}) do |f| %>
+	<%= error_messages_for @idiot %>
+	
+	<p>
+		Description:
+		<%= f.text_field :description %>
+	</p>
+	<p>
+		Location:
+		<%= f.text_field :location %>
+	</p>
+	<p>
+		Photo:
+		<%= f.file_field :photo %>
+	</p>
+	
+	<p>
+		<%= f.submit %>		
+	</p>
+<% end %>

@@ -2,6 +2,11 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.7'
 
+<<<<<<< HEAD
+gem 'sqlite3'
+gem 'paperclip'
+
+=======
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -36,3 +41,4 @@ end
 #   gem 'webrat'
 # end
 
+>>>>>>> b9febb97ad7f604c25478181d10731e88329dc76
