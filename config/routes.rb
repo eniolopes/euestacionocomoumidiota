@@ -5,6 +5,7 @@ Euestacionocomoidiota::Application.routes.draw do
   match '/auth/:provider/callback' => 'authentications#create'
   resources :authentications
 
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
